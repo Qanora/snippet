@@ -1,0 +1,10 @@
+{
+  "title": "389. Find the Difference # delet the zero in counter",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "class Solution(object):\n    def findTheDifference(self, s, t):\n        return list((collections.Counter(t) - collections.Counter(s)))[0]"
+    }
+  ]
+}
